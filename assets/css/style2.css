@@ -1,0 +1,66 @@
+.contact-logos {
+  padding: 35px;
+  display: flex;
+  gap: 60px; /* space between Abid and Asad sections */
+  align-items: center;
+  justify-content: center;
+}
+
+.abid,
+.asad {
+  display: flex;
+  gap: 20px; /* space between Upwork and Fiverr icons inside each section */
+  align-items: center;
+}
+
+
+.person {
+  display: flex;
+  flex-direction: column-reverse ;
+  align-items: center;
+  text-align: center;
+}
+
+.person .name {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.person .icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contact-logos {
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* ========== Mobile Responsive Design ========== */
+@media (max-width: 768px) {
+  .contact-logos {
+    flex-direction: column; /* stack Abid and Asad vertically */
+    gap: 30px;
+  }
+
+  .abid,
+  .asad {
+    flex-direction: column; /* stack icons vertically within each section */
+    gap: 15px;
+  }
+
+  .contact-logos img {
+    width: 100px; /* smaller icons for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-logos img {
+    width: 80px; /* further reduce icon size on very small screens */
+  }
+}

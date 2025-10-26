@@ -1748,7 +1748,8 @@ li.open > a:focus {
 
 @media only screen and (max-width: 767px) {
   .hero {
-    background-image: none !important;
+    /* background-image: none !important; */
+    min-height: 100px;
   }
   .hero .hero-action .btn {
     display: block;

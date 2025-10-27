@@ -44,6 +44,8 @@
   padding-top: 180px;
 }
 
+
+
 /* ========== Mobile Responsive Design ========== */
 @media (max-width: 768px) {
   .contact-logos {
@@ -65,5 +67,11 @@
 @media (max-width: 480px) {
   .contact-logos img {
     width: 80px; /* further reduce icon size on very small screens */
+  }
+}
+
+@media (max-width: 767px) {
+  .top-bar {
+    display: none !important;
   }
 }

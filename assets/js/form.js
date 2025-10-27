@@ -1,7 +1,3 @@
-
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
   // Initialize EmailJS
   emailjs.init("BOj7PYqWDHCFcDGjZ"); // Replace with your EmailJS public key
@@ -16,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
       from_name: document.getElementById("name").value,
       from_email: document.getElementById("email").value,
       phone: document.getElementById("phone").value,
-      specialty: document.getElementById("specialty").value,
-      service: document.getElementById("service").value,
-      healthcareType: document.getElementById("healthcareType").value,
+      practicetitle: document.getElementById("text").value,
+      massage: document.getElementById("massage").value,
+      
     };
 
     emailjs.send("service_5te3t1c", "template_9h6wq8n", templateParams)

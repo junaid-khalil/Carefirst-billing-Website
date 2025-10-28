@@ -2401,7 +2401,7 @@ li.open > a:focus {
   padding: 30px 0;
 }
 .footer .footer-bottom .footer-copyright {
-  color: #999999;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
@@ -2412,7 +2412,7 @@ li.open > a:focus {
 }
 .footer .footer-bottom .footer-social a {
   font-size: 14px;
-  color: #999999;
+  color: white;
   margin-right: 20px;
   display: inline-block;
 }

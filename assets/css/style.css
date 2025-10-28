@@ -1139,16 +1139,16 @@ section {
 
 /* Button Primary */
 .btn--primary {
-  background-color: #0070cd;
+  background-color: #002b5b;
   color: #ffffff;
-  border-color: #0070cd;
+  border-color: #00549a;
 }
 
 .btn--primary:active,
 .btn--primary:focus,
 .btn--primary:hover {
   background-color: #00549a;
-  border-color: #00549a;
+  border-color: #0070cd;
   color: #ffffff;
 }
 
